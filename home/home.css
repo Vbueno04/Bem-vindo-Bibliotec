@@ -1,0 +1,89 @@
+/* CABECALHO */
+a {
+    color: var(--branco);
+    text-decoration: none; /*Tira o sublinhado do link*/
+}
+
+.cabecalho {
+    background-color: var(--azul-escuro);
+
+    display: flex;
+
+    /* alinha no sentido do flex */
+    justify-content: space-between;
+
+    /* sentido contrário do flex */
+    align-items: center;
+
+    padding: 0 120px;
+
+    height: 10vh; /* 10% de visualização vertical do dispositivo*/
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.navegacao a {
+    text-transform: uppercase;
+    font-size: 1em; /* equivale a 16*/
+    font-weight: 500;
+}
+
+/* Conteudo principal */
+
+/* Primeiro banner */
+
+.banner-principal {
+    color: var(--branco);
+
+    height: 70vh;
+
+    background-image: url(../imgs/banner-principal-home.png);
+    background-size: cover;
+    /* ]overflow: hidden; evita que os elementos transbordem */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 120px;
+}
+
+.texto-banner {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    justify-content: center;
+
+    gap: 50px;
+}
+
+.texto-banner p {
+    font-size: 1.5em;
+    width: 50%;
+}
+
+.botao {
+    padding: 20px 50px;
+
+    border-radius: 10px;
+
+    background-color: var(--cor-destaque);
+    color: #26333d;
+
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.banner-principal img {
+    align-self:flex-end;
+    width: 35%;
+}

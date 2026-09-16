@@ -248,4 +248,10 @@ input[type="checkbox"]:checked::after{
 
  }
 
- .retirado
+.aguardando {
+    color: orangered;
+}
+
+.retirado {
+    color: greenyellow;
+}

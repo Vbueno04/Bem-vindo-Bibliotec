@@ -1,9 +1,13 @@
 const livros = document.querySelectorAll(".livro");
 
 const botaoAnterior = document.getElementById("pagina-anterior")
-const botaoProxima = document.getElementById("pagina-proxima")
+const botaoProxima = document.getElementById("proxima-pagina")
 const numeroPagina = document.querySelector(".pagina-atual")
 const quantidadeLivros = document.querySelector(".quantidade-livros")
+
+console.log(botaoAnterior);
+console.log(botaoProxima);
+
 
 // Configuração da paginação 
 
